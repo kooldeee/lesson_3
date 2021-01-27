@@ -1,0 +1,39 @@
+p {
+	color: red;
+}
+.lesson {
+	color: blue;
+}
+p.text {
+	color: green;
+}
+.text.marker {
+	color: yellow;
+}
+#lesson3 {
+	color: magenta;
+}
+h2 {
+	color: orange;
+}
+.list {
+	color: maroon;
+}
+.list.text {
+	color: mediumspringgreen;
+}
+#list3 {
+	color: olive;
+}
+span {
+	color: purple;
+}
+span.lesson.span {
+	color: peru;
+}
+header span {
+	color: seagreen;
+}
+span.black {
+	color: black;
+}
