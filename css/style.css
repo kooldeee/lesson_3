@@ -1,3 +1,39 @@
+/* Обнуляем стили */
+/* Обращаемся ко всему с помощью "*" */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* ТОчки стиля списков */
+li {
+	list-style: none;
+}
+/* Ссылки */
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+/* Заголовки */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+/* Фантомный отступ у картинок */
+img {
+	vertical-align: top;
+}
+/* Дальше мы назначаем стили объектам */
 p {
 	color: red;
 }
